@@ -1,0 +1,36 @@
+Stop secrets and personal data before they slip into an AI chat.
+
+Zovo Redact checks the active prompt composer locally and gives you a clear choice before a risky send: redact the matching values, send once, or cancel. The extension never uploads prompt text for detection.
+
+WHAT IT PROTECTS
+
+• Common API key and access token shapes
+• Private key blocks and credential assignments
+• Email addresses, phone numbers, IP addresses, and payment-card candidates
+• Large clipboard pastes and credential-shaped clipboard text
+
+HOW IT WORKS
+
+• Scan the current draft at any time
+• Use one-click “Redact & send” when the pre-send guard finds sensitive text
+• Set a separate fresh-chat timer for Gemini, ChatGPT, Claude, and Grok
+• Review a local audit trail showing category names and provider UI
+• Export the audit trail as JSON
+
+PRIVATE BY DESIGN
+
+Detection happens in your browser. Audit entries contain only category metadata, provider, time, and action. They never contain prompt text or the values that matched. A timer opens a fresh chat in the current tab; provider-side retention policies still apply.
+
+WORKS WITH
+
+Gemini, Google AI Studio, ChatGPT, Claude, and Grok.
+
+The optional Pro path adds longer timers and complete audit export. The core pre-send scan, redaction, and paste warning remain available without Pro.
+
+This extension is open source under GPL-3.0. Complete modified source:
+https://github.com/theluckystrike/zovo-redact
+
+Privacy policy: https://zovo.one/privacy-policy
+Pricing: https://zovo.one/pricing
+
+Keywords: prompt privacy, AI security, secret scanner, API key redaction, PII redaction, clipboard guard, ChatGPT privacy, Claude privacy, Gemini privacy.
