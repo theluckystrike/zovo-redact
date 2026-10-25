@@ -3,7 +3,7 @@ name: Deploy Docs
 on:
   push:
     branches:
-      - main
+      - zovo-redact-v2
     paths:
       - 'docs/**'
       - '.vitepress/**'
