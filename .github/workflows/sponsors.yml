@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - zovo-redact-v2
     paths:
       - 'sponsorkit/sponsors.json'
 
